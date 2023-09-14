@@ -11,3 +11,12 @@ for i in range(len(arr)):
     if (minn <= arr[i] <= maxx):
         res.append(i)
 print(res)
+
+
+# # Решение на коленке
+# my_list_index_2 = list()
+
+# for i in range(len(your_list)):
+#     if minn <= (your_list[i]) <= maxx:
+#         my_list_index_2.append(i)
+# print(my_list_index_2)
