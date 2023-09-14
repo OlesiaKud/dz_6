@@ -9,28 +9,6 @@
 # **Ввод:** пара-ра-рам рам-пам-папам па-ра-па-да    
 #     **Вывод:** Парам пам-пам
 
-# def find_rhythm(text, _dict):
-#     first_s_1 = None 
-#     for index, value in enumerate(text):
-#         s = list(map(lambda value: value in rhythm_dict, value))
-        
-#         s_1 = int(s.count(True))
-#         if index == 0:
-#             first_s_1 = s_1
-#         else:
-#             if s_1 != first_s_1:
-#                 print('Пам парам')
-#                 return
-#             elif s_1 == first_s_1:
-#                 print('Парам пам-пам')
-
-# print('Будем проверять рифму по технологии Винни Пуха.')
-# print('Фраза может состоять из 1 слова, если во фразе несколько слов,то они разделяются дефисами. Фразы отделяются друг от друга пробелами.') 
-# my_text = str(input('Введите ваше стихотворение: ')).lower()
-# text =(my_text.split())
-# rhythm_dict = str ('eyuioaуеыаоэяию')
-# find_rhythm(text, rhythm_dict)
-
 def find_rhythm(text, _dict):
     first_s_1 = None
     for word in text:
